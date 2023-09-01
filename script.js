@@ -23,6 +23,8 @@ function lampOff() {
 
 function lampBroken() {
     lamp.src = './img/quebrada.jpg';
+    ifLampBroken();
+    turnOnOff.disabled = true;
 }
 
 function lampOnOff() {
@@ -34,6 +36,13 @@ function lampOnOff() {
         turnOnOff.textContent = 'Ligar';
     }
 }
+
+
+function ifLampBroken() {
+    if (isLampBroken) {
+        turnOnOff.textContent = 'Quebrou :(';
+    }
+} 
 
 // turnOn.addEventListener ('click', lampOn);
 // turnOff.addEventListener ('click', lampOff);
