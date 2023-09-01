@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada & Semáforo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="lampada">
+                <h1>Lâmpada</h1>
+                <div>
+                    <img id="lamp" src="./img/desligada.jpg" alt="Lâmpada">
+                </div>
+                <div>
+                    <button id="turnOnOff">Ligar</button>
+                    <!-- <button id="turnOn">Ligar</button> -->
+                    <!-- <button id="turnOff">Desligar</button> -->
+                </div>
+            </div>
+            <div class="semaforo">
+                <h1 class="semaforo-title">Semáforo</h1>
+                <div>
+                    <img id="sem" src="./img/desligado.png" alt="Semáforo">
+                </div>
+                <div id="buttons">
+                    <button id="red" class="button">Vermelho</button>
+                    <button id="yellow" class="button">Amarelo</button>
+                    <button id="green" class="button">Verde</button>
+                    <button id="automatic" class="button">Automático</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

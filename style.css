@@ -1,0 +1,64 @@
+* {
+    font-family: 'Black Ops One', cursive;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    min-width: 570px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lampada {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.semaforo {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.semaforo-title {
+    margin-bottom: 22px;
+}
+
+#yellow {
+    margin-left: 8px;
+}
+
+#green {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#lamp {
+    margin-bottom: 20px;
+}
+
+#sem {
+    margin-bottom: 30px;
+    height: 281px;
+}
+
+button {
+    font-size: 16px;
+    height: 35px;
+    width: 120px;
+}
