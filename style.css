@@ -9,7 +9,9 @@ body {
 }
 
 .container {
-    min-width: 570px;
+    width: 80vw; /* Defina a largura em relação à largura da viewport */
+    max-width: 700px; /* Define uma largura máxima para evitar que a div fique muito larga */
+    margin: 0 auto;
 }
 
 main {
@@ -48,6 +50,10 @@ main {
     margin-right: 8px;
 }
 
+#automatic {
+    margin-right: 8px;
+}
+
 #lamp {
     margin-bottom: 20px;
 }
@@ -61,4 +67,24 @@ button {
     font-size: 16px;
     height: 35px;
     width: 120px;
+}
+
+@media screen and (max-width: 870px) {
+    button {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    #yellow {
+        margin-left: auto;
+    }
+
+    #green {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #automatic {
+        margin-right: auto;
+    }
 }
